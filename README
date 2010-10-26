@@ -1,0 +1,4 @@
+This is a simple php script that uses iCalCreator to produce an iCal file.  The iCal file will contain events for the last two week whose names are the value of the hardcoded checking account balance using ledger.  
+
+To use this, open ledger.php, edit to point to your own ledger file and modify for the name of your checking account.
+
