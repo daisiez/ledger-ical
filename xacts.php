@@ -14,7 +14,7 @@ $v->setConfig( 'unique_id', 'ataraxia.ericbetts.org' );
 
 $v->setProperty( 'method', 'PUBLISH' );
 // required of some calendar software
-$v->setProperty( "x-wr-calname", "Checking Balance" );
+$v->setProperty( "x-wr-calname", "Checking Events" );
 // required of some calendar software
 $v->setProperty( "X-WR-CALDESC", "Daily events of my checking account as reported by Ledger" );
 // required of some calendar software
