@@ -3,7 +3,7 @@
 require_once( 'iCalcreator.class.php' );
 
 $ledger = "/usr/local/bin/ledger -f /Users/bettse/Dropbox/Finances/current.lgr";
-$daily_balance = ' -J -E -c -p "daily" -d "d>=[last month] & d < [next month]+30"  --sort d reg "FirstTech:Checking"';
+$daily_balance = ' -J -E -p "daily" -d "d>=[today]-14 & d < [tomorrow]"  --sort d reg "FirstTech:Checking"';
 $output = "";
 exec("$ledger $daily_balance", $output);
 
